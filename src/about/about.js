@@ -6,6 +6,7 @@ import twitchImage from "./Combo_Purple_RGB.svg";
 import linkedInLogo from "./LinkedIn-Blue-14@2x.png";
 import youtubeLogo from "./yt_logo_rgb_light.png";
 import twitterLogo from "./Twitter_Logo_Blue.svg";
+import brooksImage from "./00030_DVLPden.jpg";
 
 import "./about.css";
 
@@ -33,6 +34,11 @@ const skills = {
 function About(properties) {
   return (
     <section className="About">
+      <img
+        src={brooksImage}
+        alt="Brooks speaking at Develop Denver 2018"
+        className="About-brooks"
+      />
       <h1>Introducing Brooks Patton</h1>
       <h2>
         Software developer, Educator, Leadership geek, and all around creative

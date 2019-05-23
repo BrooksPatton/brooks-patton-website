@@ -21,6 +21,14 @@ function TopNav({ location }) {
         >
           About Me
         </Link>
+        <Link
+          to="/work-experience/"
+          className={
+            location.pathname === "/work-experience" ? "TopNav-current" : null
+          }
+        >
+          Work Experience
+        </Link>
       </nav>
     </section>
   );

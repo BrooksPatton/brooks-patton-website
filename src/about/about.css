@@ -63,3 +63,10 @@
 .About-programming {
   background-color: lightpink;
 }
+
+.About-brooks {
+  width: 20rem;
+  float: left;
+  margin: 0 2rem 0 0;
+  border-radius: 10px;
+}

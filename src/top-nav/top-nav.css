@@ -1,24 +1,31 @@
 .TopNav {
-    background-color: darkseagreen;
-    height: 3rem;
-    line-height: 3rem;
-    padding: 0 25rem;
-    display: flex;
-    justify-content: space-between;
+  background-color: darkseagreen;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 25rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .TopNav nav a {
-    text-decoration: none;
+  text-decoration: none;
+  margin-right: 1rem;
+  color: black;
+  border-bottom: 2px solid darkseagreen;
+}
+
+.TopNav nav a:last-child {
+  margin-right: 0;
 }
 
 .TopNav nav a:visited {
-    color: black;
+  color: black;
 }
 
 .TopNav-current {
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .TopNav img {
-    height: 2.5rem;
+  height: 2.5rem;
 }
