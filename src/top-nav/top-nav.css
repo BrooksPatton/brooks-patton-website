@@ -47,6 +47,18 @@
 }
 
 @media (max-width: 1700px) {
+  .TopNav {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .TopNav {
+    padding: 0;
+  }
+}
+
+@media (max-width: 900px) {
   .TopNav-dropdown {
     visibility: visible;
     cursor: pointer;
@@ -68,9 +80,5 @@
 
   .TopNav nav:hover a {
     visibility: visible;
-  }
-
-  .TopNav {
-    padding: 0 5rem;
   }
 }
