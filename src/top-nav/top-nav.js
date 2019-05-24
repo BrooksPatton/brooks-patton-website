@@ -17,6 +17,7 @@ function TopNav({ location }) {
         />
       </Link>
       <nav>
+        <span className="TopNav-dropdown">Menu ⥥</span>
         <Link
           to="/"
           className={location.pathname === "/" ? "TopNav-current" : null}

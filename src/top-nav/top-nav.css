@@ -5,6 +5,7 @@
   padding: 0 25rem;
   display: flex;
   justify-content: space-between;
+  transition: padding 500ms;
 }
 
 .TopNav nav a {
@@ -37,4 +38,39 @@
 
 .TopNav nav a:not(.TopNav-current):hover {
   border-bottom: 2px solid darkred;
+}
+
+.TopNav-dropdown {
+  visibility: hidden;
+  height: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 1700px) {
+  .TopNav-dropdown {
+    visibility: visible;
+    cursor: pointer;
+  }
+
+  .TopNav nav {
+    flex-direction: column;
+    display: flex;
+    z-index: 100;
+  }
+
+  .TopNav nav a {
+    width: 15rem;
+    background-color: lightblue;
+    padding: 1rem;
+    visibility: hidden;
+    margin-right: 0;
+  }
+
+  .TopNav nav:hover a {
+    visibility: visible;
+  }
+
+  .TopNav {
+    padding: 0 5rem;
+  }
 }

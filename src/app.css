@@ -3,4 +3,11 @@
   border-radius: 10px;
   border: 0.5px solid lightblue;
   padding: 1rem;
+  transition: margin 250ms;
+}
+
+@media (max-width: 1700px) {
+  .App main {
+    margin: 1rem 5rem;
+  }
 }
