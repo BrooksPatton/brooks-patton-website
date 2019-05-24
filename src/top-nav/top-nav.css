@@ -12,6 +12,7 @@
   margin-right: 1rem;
   color: black;
   border-top: 2px solid lightsteelblue;
+  transition: border-bottom 500ms;
 }
 
 .TopNav nav a:last-child {
@@ -28,4 +29,12 @@
 
 .TopNav img {
   height: 2.5rem;
+}
+
+.TopNav nav a img {
+  height: 1rem;
+}
+
+.TopNav nav a:not(.TopNav-current):hover {
+  border-bottom: 2px solid darkred;
 }
