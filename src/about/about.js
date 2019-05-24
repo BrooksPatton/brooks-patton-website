@@ -1,5 +1,4 @@
 import React from "react";
-import _shuffle from "lodash.shuffle";
 
 import octocatImage from "./Octocat.png";
 import twitchImage from "./Combo_Purple_RGB.svg";
@@ -63,25 +62,26 @@ function About(properties) {
       </p>
       <ul>
         <li>
-          <bold>Small team leadership</bold> - I have worked with some amazing
-          leaders in the past and I'm now convinced that a team full of leaders
-          can do amazing things if they are given the space and freedom to
-          spread their wings.
+          <span className="bold">Small team leadership</span> - I have worked
+          with some amazing leaders in the past and I'm now convinced that a
+          team full of leaders can do amazing things if they are given the space
+          and freedom to spread their wings.
         </li>
         <li>
-          <bold>Test Driven Development (TDD)</bold> - It's impossible to avoid
-          bugs completely when creating new features, but regressions should be
-          completely avoidable if we test our code as we write it. And the best
-          way to ensure that our tests are written is to write them first (so we
-          don't forget or get lazy about the tests later).
+          <span className="bold">Test Driven Development (TDD)</span> - It's
+          impossible to avoid bugs completely when creating new features, but
+          regressions should be completely avoidable if we test our code as we
+          write it. And the best way to ensure that our tests are written is to
+          write them first (so we don't forget or get lazy about the tests
+          later).
         </li>
         <li>
-          <bold>Scaling applications when needed</bold> - I've seen companies
-          pre-optimize which hurts the ability to make sales and get value to
-          the customers. I've also seen applications that are struggling to load
-          for just a few simultaneous clients. It's important to use data to
-          determine when to scale, and how to scale applications in order to
-          continue providing value and sale opportunities.
+          <span className="bold">Scaling applications when needed</span> - I've
+          seen companies pre-optimize which hurts the ability to make sales and
+          get value to the customers. I've also seen applications that are
+          struggling to load for just a few simultaneous clients. It's important
+          to use data to determine when to scale, and how to scale applications
+          in order to continue providing value and sale opportunities.
         </li>
       </ul>
       <h2>Skills</h2>

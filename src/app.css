@@ -1,3 +1,6 @@
 .App main {
-    margin: 1rem 25rem;
+  margin: 1rem 25rem;
+  border-radius: 10px;
+  border: 0.5px solid lightblue;
+  padding: 1rem;
 }

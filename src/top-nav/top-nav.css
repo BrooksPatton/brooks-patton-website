@@ -1,5 +1,5 @@
 .TopNav {
-  background-color: darkseagreen;
+  background-color: lightsteelblue;
   height: 3rem;
   line-height: 3rem;
   padding: 0 25rem;
@@ -11,7 +11,7 @@
   text-decoration: none;
   margin-right: 1rem;
   color: black;
-  border-bottom: 2px solid darkseagreen;
+  border-top: 2px solid lightsteelblue;
 }
 
 .TopNav nav a:last-child {

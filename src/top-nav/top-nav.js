@@ -24,7 +24,7 @@ function TopNav({ location }) {
         <Link
           to="/work-experience/"
           className={
-            location.pathname === "/work-experience" ? "TopNav-current" : null
+            location.pathname === "/work-experience/" ? "TopNav-current" : null
           }
         >
           Work Experience

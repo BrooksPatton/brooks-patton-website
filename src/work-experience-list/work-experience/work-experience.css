@@ -1,0 +1,24 @@
+.WorkExperience {
+  display: flex;
+  justify-content: space-between;
+}
+
+.WorkExperience h1 {
+  font-size: 1.2rem;
+}
+
+.WorkExperience img {
+  width: 100%;
+}
+
+.WorkExperience-logo {
+  width: 20%;
+}
+
+.WorkExperience-text {
+  width: 75%;
+}
+
+.WorkExperience-content {
+  border-top: 0.5px solid lightslategrey;
+}
